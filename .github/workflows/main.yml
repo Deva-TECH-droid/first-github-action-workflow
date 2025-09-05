@@ -2,17 +2,16 @@ name: devansh Upadhyay
 
 on:
   push:
-      branches: [ main ]
+    branches: [ main ]
 
 jobs:
-   demo:
-      runs-on: ubuntu-latest
-
+  demo:
+    runs-on: ubuntu-latest
 
     steps:
       - name: Greetings
         run: echo "Hello from devansh"
-         
+
 
 
   
